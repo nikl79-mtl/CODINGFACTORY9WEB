@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <caption>Lessons Schedule</caption>
+        <tr>
+            <th>Lesson</th>
+            <th>Teacher</th>
+            <th>Date/Time</th>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Thanassis</td>
+            <td>Monday 18:00-21:00</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Markos</td>
+            <td>Thursday 18:00-21:00</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Lesson</th>
+                <th>Theacher</th>
+                <th>Date/Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Thanassis</td>
+                <td>Monday 18:00-21:00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Lesson</th>
+                <th>Theacher</th>
+                <th>Date/Time</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="3">Learning Programming</td>
+            <!-- <td>Thanassis</td>
+            <td>Monday 18:00-21:00</td> -->
+        </tr>            
+            <tr>
+                <td>Java</td>
+                <td>Thanassis</td>
+                <td>Monday 18:00-21:00</td>
+            </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Markos</td>
+            <td rowspan="2">Friday</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Makis</td>
+            <!-- <td>Friday</td> -->
+        </tr>
+        </tbody>
+    </table>
+
+
+<table>tr*3>td*4>   
+    <tr>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+        <td>Row 1, Cell 3</td>
+        <td>Row 1, Cell 4</td>
+    </tr>
+    <tr>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+        <td>Row 2, Cell 3</td>
+        <td>Row 2, Cell 4</td>
+    </tr>
+    <tr>
+        <td>Row 3, Cell 1</td>
+        <td>Row 3, Cell 2</td>
+        <td>Row 3, Cell 3</td>
+        <td>Row 3, Cell 4</td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
